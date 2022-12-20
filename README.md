@@ -1,1 +1,3 @@
-# python_image_display_GUI
+# Image Size Display GUI
+
+This code creates a GUI (Graphical User Interface) with a button and a label using the tkinter module in Python. When the button is clicked, it opens a file dialog that allows the user to select an image file. The program then uses the PIL (Python Imaging Library) module to open the selected image and get its size. The program also creates a thumbnail of the image using the resize() method of the Image class from PIL and converts it to a PhotoImage object using the ImageTk module. The thumbnail is displayed in a label and the label is updated with the size of the image. The program allows the user to upload and analyze multiple images, with each new image replacing the previous one in the interface. The program runs a main loop to keep the GUI active and responsive to user input.
